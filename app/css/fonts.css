@@ -1,0 +1,38 @@
+
+@font-face {
+	font-family: 'Conv_Zaychik-Regular';
+	src: url('../fonts/Zaychik-Regular.eot');
+	src: local('☺'), url('../fonts/Zaychik-Regular.woff') format('woff'), url('../fonts/Zaychik-Regular.ttf') format('truetype'), url('../fonts/Zaychik-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BluecurveLight';
+	src: url('../fonts/BluecurveLight.eot');
+	src: url('../fonts/BluecurveLight.eot') format('embedded-opentype'),
+	url('../fonts/BluecurveLight.woff2') format('woff2'),
+	url('../fonts/BluecurveLight.woff') format('woff'),
+	url('../fonts/BluecurveLight.ttf') format('truetype'),
+	url('../fonts/BluecurveLight.svg#BluecurveLight') format('svg');
+}
+
+@font-face {
+	font-family: 'GlacialIndifferenceBold';
+	src: url('../fonts/GlacialIndifferenceBold.eot');
+	src: url('../fonts/GlacialIndifferenceBold.eot') format('embedded-opentype'),
+	url('../fonts/GlacialIndifferenceBold.woff2') format('woff2'),
+	url('../fonts/GlacialIndifferenceBold.woff') format('woff'),
+	url('../fonts/GlacialIndifferenceBold.ttf') format('truetype'),
+	url('../fonts/GlacialIndifferenceBold.svg#GlacialIndifferenceBold') format('svg');
+}
+
+@font-face {
+	font-family: 'BluecurveRegular';
+	src: url('../fonts/BluecurveRegular.eot');
+	src: url('../fonts/BluecurveRegular.eot') format('embedded-opentype'),
+	url('../fonts/BluecurveRegular.woff2') format('woff2'),
+	url('../fonts/BluecurveRegular.woff') format('woff'),
+	url('../fonts/BluecurveRegular.ttf') format('truetype'),
+	url('../fonts/BluecurveRegular.svg#BluecurveRegular') format('svg');
+}

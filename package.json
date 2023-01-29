@@ -1,0 +1,28 @@
+{
+	"name": "website",
+	"version": "5.0.0",
+	"description": "Gulp Starter",
+	"main": "index.js",
+	"author": "Developer",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.3",
+		"@babel/preset-env": "^7.12.1",
+		"bootstrap": "^4.5.3",
+		"browser-sync": "^2.26.13",
+		"del": "^6.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-rsync": "0.0.9",
+		"gulp-sass": "^4.1.0",
+		"gulp-uglify": "^3.0.2",
+		"webpack-stream": "^6.1.1"
+	},
+	"dependencies": {
+		"swiper": "^8.4.4"
+	}
+}

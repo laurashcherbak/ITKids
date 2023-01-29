@@ -1,0 +1,193 @@
+*{
+  box-sizing: border-box;
+  font-family: var(--secondaryFont);
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: white;
+  overflow-x:hidden;
+}
+
+main{
+  padding-top: 80px;
+}
+
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.slick-track{
+  display: flex;
+}
+
+.slick-list{
+  overflow: hidden;
+}
+
+button{
+  cursor: pointer;
+}
+
+.overflow{
+  overflow: hidden
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li, il{
+  list-style-type: none;
+}
+
+a,p,ul,li{
+  font-family: var(--mainFont);
+  font-weight: bold;
+
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1{
+  font-family: 'Conv_Zaychik-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  color: #F1F2F6;
+}
+
+.orange__btn{
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 113.5%;
+  color: darkblue;
+  background: #FFA822;
+  border-radius: 10px;
+  padding: 16px 30px;
+  text-align: center;
+  transition: 0.35s;
+  &:hover{
+    background: #F9CC88;
+  }
+}
+
+h2{
+  font-family: 'Conv_Zaychik-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 113.5%;
+  color: darkblue;
+  text-align: center;
+  &.white{
+    color: #F1F2F6;
+  }
+}
+
+h3{
+  font-family: 'Conv_Zaychik-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 113.5%;
+  text-align: center;
+  color: darkblue;
+  &.white{
+    color: #F1F2F6;
+  }
+}
+
+p{
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 113.5%;
+  color: darkblue;
+  &.white{
+    color: #F1F2F6;
+  }
+}
+
+.bottom-line{
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 113.5%;
+  border-bottom: 2px solid darkblue;
+  color: darkblue;
+  transition: 0.35s;
+  &:hover{
+    color: #F1F2F6;
+    border-color: #F1F2F6;
+  }
+}
+
+h4{
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 113.5%;
+  text-align: center;
+  color: darkblue;
+}
+
+.accordion-title{
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 113.5%;
+  display: flex;
+  align-items: center;
+  color: darkblue;
+}
+
+.blue-btn{
+  border: 1px solid #27187E;
+  border-radius: 10px;
+  width: 209px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 113.5%;
+  color: darkblue;
+  transition: 0.35s;
+  &:hover{
+    color: #F1F2F6;
+    background: darkblue;
+  }
+}
+

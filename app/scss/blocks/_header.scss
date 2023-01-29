@@ -1,0 +1,130 @@
+
+
+.header{
+  background: #F1F2F6;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  @include tabletM{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+
+  }
+  .header__burger{
+    display: none;
+    @include tabletM{
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+    }
+    z-index: 5;
+  }
+  @include tabletM{
+    .header__burger:before,
+    .header__burger:after {
+      content: '';
+      background: #000000;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease 0s;
+    }
+    .header:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000000;
+      z-index: 3;
+    }
+    .header__burger:before {
+      top: 0;
+    }
+    .header__burger:after {
+      height: 2.4px;
+      bottom: 0;
+    }
+    .header__burger span {
+      position: absolute;
+      background: #000000;
+      left: 0;
+      width: 100%;
+      height: 2.4px;
+      top: 8.4px;
+      transition: all 0.3s ease 0s;
+    }
+
+    .header__burger.active span {
+      transform: scale(0);
+    }
+    .header__burger.active:before {
+      transform: rotate(45deg);
+      top: 8.6px;
+    }
+    .header__burger.active:after {
+      transform: rotate(-45deg);
+      bottom: 9px;
+    }
+  }
+   &__body{
+     display: flex;
+     justify-content: space-between;
+     max-height: 80px;
+     max-width: 1150px;
+     margin: 0 auto;
+     @include tabletM{
+       padding-top: 25px;
+       padding-bottom: 25px;
+     }
+     .header__nav{
+       display: flex;
+       align-items: center;
+       .header__nav-item{
+         font-family: 'BluecurveRegular';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 113.5%;
+         color: darkblue;
+         margin-right: 30px;
+         &:last-child{
+           margin-right: 0;
+         }
+       }
+     }
+     .header__btn{
+       display: flex;
+       align-items: center;
+     }
+   }
+}
+
+.donat__btn{
+  margin-right: 30px;
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 113.5%;
+  color: darkblue;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: 0.35s;
+  border: 1px solid #27187E;
+  &:hover{
+    color: #F1F2F6;
+    background: darkblue;
+  }
+}

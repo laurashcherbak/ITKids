@@ -1,0 +1,59 @@
+$k2: 2560px;
+$desktop: 1921px;
+$laptopL: 1681px;
+$tabletM: 1200px;
+$tabletL: 1024px;
+$tablet: 768px;
+$tabletS: 625px;
+$mobileL: 530px;
+$mobileM: 414px;
+$mobileS: 360px;
+
+@mixin mobileL{
+  @media (max-width: $mobileL){
+    @content
+  }
+}
+
+
+@mixin mobile{
+  @media (max-width: $tabletS){
+    @content
+  }
+}
+
+@mixin tabletL{
+  @media (max-width: $tabletL){
+    @content
+  }
+}
+
+@mixin tabletM{
+  @media (max-width: $tabletM){
+    @content
+  }
+}
+
+@mixin tablet{
+  @media (max-width: $tablet){
+    @content
+  }
+}
+
+@mixin tabletS{
+  @media (max-width: $tabletS){
+    @content
+  }
+}
+
+@mixin laptop{
+  @media (max-width: $laptopL){
+    @content
+  }
+}
+
+// colors
+:root{
+  --darkblue:  #27187E;
+
+}
