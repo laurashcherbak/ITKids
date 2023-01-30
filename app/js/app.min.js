@@ -9,6 +9,16 @@ $(document).ready(function (){
         pauseOnDotsHover: true,
     });
 
+    $('.reviews-slider').slick({
+        arrows: false,
+        slidesPerView: 4,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        pauseOnDotsHover: true,
+    });
+
     var accordion = (function(){
 
         var $accordion = $('.js-accordion');

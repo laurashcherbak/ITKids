@@ -88,7 +88,7 @@ h1{
   color: darkblue;
   background: #FFA822;
   border-radius: 10px;
-  padding: 16px 30px;
+  padding: 15px 30px;
   text-align: center;
   transition: 0.35s;
   &:hover{
@@ -171,13 +171,10 @@ h4{
 }
 
 .blue-btn{
+  cursor: pointer;
   border: 1px solid #27187E;
   border-radius: 10px;
-  width: 209px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 15px 30px;
   font-family: 'BluecurveRegular';
   font-style: normal;
   font-weight: 400;
@@ -185,9 +182,105 @@ h4{
   line-height: 113.5%;
   color: darkblue;
   transition: 0.35s;
+  display: inline-block;
   &:hover{
     color: #F1F2F6;
     background: darkblue;
   }
 }
 
+.check-box {
+  margin-right: 35px;
+  .column{
+    margin-right: 20px;
+  }
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 12px;
+    padding-right: 0;
+    margin-bottom: 15px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'BluecurveRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.5%;
+    color: #27187E;
+    white-space: nowrap;
+  }
+
+  .container .check-highload {
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .highload2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #27187E;
+    transition: 0.35s;
+  }
+
+  /* При наведении указателя мыши перекрашиваем */
+  .container:hover .check-highload ~ .highload2 {
+    background-color: #27187E;
+
+    svg {
+      path {
+        stroke: #F1F2F6;
+        opacity: 1;
+      }
+    }
+  }
+
+  /* Когда отмечен, то красим в зеленый цвет */
+  .container .check-highload:checked ~ .highload2 {
+    svg {
+      transition: 0.35s;
+
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+
+  /* Создаем когда отмечено (не видно, когда не отмечено) */
+  .highload2 {
+    svg {
+      opacity: 1;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 70%;
+      height: 70%
+    }
+  }
+
+}
+
+.blue-link{
+  font-family: 'BluecurveRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 113.5%;
+  text-align: center;
+  border-bottom: 2px solid #27187E;
+  color: #27187E;
+  transition: 0.35s;
+  &:hover{
+    border-color: #F1F2F6;
+    color: #F1F2F6;
+  }
+}

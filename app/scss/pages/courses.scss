@@ -1,0 +1,275 @@
+.courses__title{
+  position: relative;
+  width: 100%;
+  margin-top: -65px;
+  margin-bottom: 100px;
+  .svg-bg{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .courses-title-body{
+    padding: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .course-title-img{
+      max-width: 592px;
+      max-height: 592px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+      }
+    }
+    .courses-title-info{
+      h2{
+        text-align: left;
+      }
+      p{
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+      .courses-search-form{
+        form{
+          display: flex;
+        }
+      }
+      .search-input{
+
+        outline: none;
+        background: transparent;
+        border: 1px solid #F1F2F6;
+        border-radius: 10px;
+        padding: 15px 20px;
+        font-family: 'BluecurveRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 113.5%;
+        color: #F1F2F6;
+        &::placeholder{
+          color: #F1F2F6;
+        }
+        margin-right: 24px;
+        width: 332px;
+      }
+    }
+  }
+}
+
+.courses__filter{
+ max-width: 1150px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  .filter-img{
+    max-width: 241px;
+    max-height: 241px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .topics{
+    max-width: 260px;
+    p{
+      margin-bottom: 50px;
+      font-size: 20px;
+    }
+    .blue-btn{
+      margin-bottom: 15px;
+      margin-right: 10px;
+    }
+  }
+  .filter-check-boxes{
+    .filter-title{
+      margin-bottom: 50px;
+      font-size: 20px;
+    }
+    .check-box-body{
+      max-width: 555px;
+      p{
+        margin-bottom: 20px;
+      }
+      display: flex;
+      .check-box-wrapper{
+        display: flex;
+      }
+      .check-box{
+        max-width: 190px;
+      }
+    }
+  }
+}
+
+.courses{
+  h3{
+    margin-bottom: 30px;
+  }
+  max-width: 1150px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .courses__list{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    .course-slide{
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+.reviews{
+  h3{
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  min-height: 700px;
+  position: relative;
+  width: 100%;
+  .svg-bg{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .link-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .reviews-slider{
+    .review-slide{
+      max-width: 360px;
+      max-height: 250px;
+      background: #F1F2F6;
+      backdrop-filter: blur(2px);
+      border-radius: 10px;
+      padding: 10px;
+      margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+     justify-content: space-between;
+      &:hover{
+        transform: scale(0.95);
+      }
+      &.bottom{
+        margin-top: 50px;
+        height: 250px;
+      }
+      .review-header{
+        margin-bottom: 10px;
+        img{
+          width: 90px;
+          height: 90px;
+          object-fit: cover;
+          border-radius: 78% 22% 53% 47% / 67% 48% 52% 33%;
+        }
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        .reviews__rating{
+          display: flex;
+          justify-content: space-between;
+          margin-right: 25px;
+          svg{
+            transition: 0.35s;
+          }
+          svg:hover{
+            path{
+              fill: #758BFD;
+            }
+          }
+        }
+      }
+      .reviews-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.help{
+  position: relative;
+  width: 100%;
+  .help-body{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    .help-form{
+      max-width: 400px;
+      text-align: center;
+       p{
+         margin-bottom: 40px;
+       }
+      .Helpform{
+        display: flex;
+        position: relative;
+        svg{
+          position: absolute;
+          top: 12px;
+          left: 12px;
+        }
+        input{
+          border: 1px solid #F1F2F6;
+          border-radius: 10px;
+          background: transparent;
+          outline: none;
+          padding-left: 40px;
+          padding-right: 20px;
+          width: 100%;
+          margin-right: 20px;
+          font-family: 'BluecurveRegular';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 113.5%;
+          color: #F1F2F6;
+          &::placeholder{
+            color: #F1F2F6;
+          }
+        }
+      }
+    }
+    .help-telegram{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p{
+        margin-bottom: 30px;
+      }
+      svg{
+        path {
+          transition: 0.35s;
+        }
+      }
+      svg:hover{
+        path{
+          fill: #FFA822;
+        }
+      }
+    }
+  }
+  h3{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .svg-bg{
+    position: absolute;
+    width: 101%;
+    z-index: -2;
+    top: -170px;
+  }
+}
