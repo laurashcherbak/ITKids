@@ -122,6 +122,19 @@ h3{
   }
 }
 
+h5{
+  font-family: 'Conv_Zaychik-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 113.5%;
+  color: #27187E;
+  transition: 0.1s;
+  &:hover{
+    border-bottom: 2px solid darkblue;
+  }
+}
+
 p{
   font-family: 'BluecurveRegular';
   font-style: normal;
