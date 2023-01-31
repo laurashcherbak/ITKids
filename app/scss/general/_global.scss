@@ -83,7 +83,7 @@ h1{
   font-family: 'BluecurveRegular';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 113.5%;
   color: darkblue;
   background: #FFA822;
@@ -91,6 +91,7 @@ h1{
   padding: 15px 30px;
   text-align: center;
   transition: 0.35s;
+  display: inline-block;
   &:hover{
     background: #F9CC88;
   }
@@ -130,10 +131,22 @@ h5{
   line-height: 113.5%;
   color: #27187E;
   transition: 0.1s;
-  &:hover{
-    border-bottom: 2px solid darkblue;
+
+  &.white{
+    color: #F1F2F6;
   }
 }
+
+h6{
+  font-family: 'BluecurveLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 113.5%;
+  color: #FFFFFF;
+}
+
+
 
 p{
   font-family: 'BluecurveRegular';
@@ -145,7 +158,19 @@ p{
   &.white{
     color: #F1F2F6;
   }
+  &.big-p{
+    font-size: 24px;
+  }
+  &.medium-p{
+    font-size: 20px;
+  }
+  &.large-p{
+    font-size: 28px;
+    font-family: BluecurveLight;
+    font-weight: 300;
+  }
 }
+
 
 .bottom-line{
   font-family: 'BluecurveRegular';
@@ -187,7 +212,7 @@ h4{
   cursor: pointer;
   border: 1px solid #27187E;
   border-radius: 10px;
-  padding: 15px 30px;
+  padding: 14px 30px;
   font-family: 'BluecurveRegular';
   font-style: normal;
   font-weight: 400;

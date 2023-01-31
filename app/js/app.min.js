@@ -10,12 +10,20 @@ $(document).ready(function (){
     });
 
     $('.reviews-slider').slick({
-        arrows: false,
+
         slidesPerView: 4,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1500,
+        pauseOnDotsHover: true,
+    });
+
+    $('.course-reviews-slider').slick({
+        slidesPerView: 2,
+        slidesToShow: 2,
+        infinite: false,
+        slidesToScroll: 1,
         pauseOnDotsHover: true,
     });
 
