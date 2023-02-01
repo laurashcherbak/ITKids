@@ -326,3 +326,14 @@ h4{
     color: #F1F2F6;
   }
 }
+
+.error{
+  img{
+    margin: -140px auto -50px;
+    object-fit: cover;
+    max-width: 850px;
+    max-height: 850px;
+  }
+  height: 100vh;
+  background: #27187E;
+}
