@@ -150,6 +150,7 @@
       }
     }
     .skills-teacher{
+      padding-top: 110px;
       margin-right: 220px;
       text-align: center;
       p{
@@ -160,9 +161,10 @@
 }
 
 .useful-info{
-  margin-top: 130px;
+  margin-top: 50px;
   h2{
     padding-bottom: 70px;
+    text-align: left;
   }
   .useful-info-body{
     display: flex;
@@ -200,7 +202,7 @@
 }
 
 .course-reviews{
-  margin: 60px auto 100px;
+  margin: 100px auto 150px;
   max-width: 900px;
   margin-left: 180px;
   display: flex;

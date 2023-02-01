@@ -9,6 +9,17 @@ $(document).ready(function (){
         pauseOnDotsHover: true,
     });
 
+    $('.partners-slider').slick({
+        arrows: false,
+        slidesPerView: 4,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        pauseOnDotsHover: true,
+    });
+
+
     $('.reviews-slider').slick({
 
         slidesPerView: 4,
