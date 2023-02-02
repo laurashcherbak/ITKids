@@ -34,14 +34,24 @@
     }
     .course-title-img{
       z-index: 2;
-      max-width: 445px;
-      max-height: 400px;
+      max-width: 450px;
+      max-height: 550px;
+      &.scretch{
+        position: relative;
+        width: 450px;
+        height: 540px;
+        .scretch-img{
+          position: absolute;
+          z-index: 3;
+        }
+        }
+      }
       img{
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
-    }
+
   }
 
 }
@@ -55,6 +65,17 @@
   flex-direction: column;
   padding-top: 230px;
   padding-left: 200px;
+  &.design{
+    .preferences{
+      padding-top: 45px;
+    }
+  }
+  &.scretch{
+    margin-top: -250px;
+    .preferences{
+      margin-top: -60px;
+    }
+  }
   .decor-line{
     top: 0;
     left: 70px;
@@ -135,7 +156,7 @@
     .skills-item{
       display: flex;
       max-width: 440px;
-      margin-bottom: 20px;
+      margin-bottom: 60px;
       position: relative;
       svg{
         position: absolute;
