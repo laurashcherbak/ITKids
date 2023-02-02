@@ -121,6 +121,11 @@
     grid-template-columns: repeat(3, auto);
     .course-slide{
       margin-bottom: 20px;
+      position: relative;
+      .scretch-img{
+        position: absolute;
+        top: 40px;
+      }
     }
   }
 }
