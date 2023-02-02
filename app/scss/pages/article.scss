@@ -3,7 +3,15 @@
   .help {
     z-index: 1;
   }
-
+&.anons{
+  height: 100vh;
+  max-height: 100vh;
+  padding-top: 0;
+  .article-title{
+    padding-top: 80px;
+    height: 100vh;
+  }
+}
   .article-decor{
     width: 100%;
   }
@@ -16,6 +24,7 @@
     padding-bottom: 30px;
     .title-text{
       width: 50%;
+      margin-right: 20px;
       h2{
         text-align: left;
         margin-bottom: 30px;
@@ -38,7 +47,7 @@
       }
     }
     .title-img{
-      width: 40%;
+      width: 50%;
       min-width: 500px;
       img{
         width: 100%;

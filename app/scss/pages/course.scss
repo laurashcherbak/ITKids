@@ -85,6 +85,31 @@
       margin-top: -100px;
     }
   }
+  &.graphics{
+    padding-top: 250px;
+    .preferences{
+      margin-top: -30px;
+      margin-bottom: 500px;
+    }
+
+    .preferences-img{
+      top: 230px;
+      max-width: none;
+    }
+    .right-info{
+      padding-top: 60px;
+      p{
+        margin-bottom: 50px;
+      }
+    }
+    .skills-teacher{
+      padding-top: 60px;
+      margin-top: -100px;
+    }
+    .program{
+      padding-top: 50px;
+    }
+  }
   &.js{
     padding-top: 200px;
     .preferences{
@@ -162,6 +187,9 @@
   max-width: 660px;
   .accordion-header{
     padding: 25px 15px;
+    .accordion-title{
+      text-align: left;
+    }
   }
   .program-title{
     text-align: left;
