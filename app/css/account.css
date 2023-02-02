@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    padding: 0px;
+
+}
+
+.nav {
+    width: 200px;
+    height: 100vh;
+    background-color: #27187E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+
+h4 {
+    font-family: 'BluecurveRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #F1F2F6;
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'BluecurveRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.5%;
+    color: #F1F2F6;
+}
+
+.nav-button {
+    /* Frame 1159 */
+
+
+    box-sizing: border-box;
+    /* Auto layout */
+
+    display: flex;
+    align-items: flex-start;
+    padding: 14px;
+    
+    width: 160px;
+    height: 46px;
+    border: 1px solid #F1F2F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.account {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.line {
+    width: 200px;
+    height: 0px;
+    border: 1px solid #F1F2F6;
+    margin-top: 51px;
+    margin-bottom: 54px;
+}
+
+.logo {
+    margin-top: 81px;
+}
+
+.main-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+    position: relative;
+
+}
+
+.course {
+    box-sizing: border-box;
+    width: 260px;
+    height: 302.61px;
+    background: radial-gradient(61.46% 61.46% at 45.56% 43.79%, #FFDEBA 0%, #AEB8FE 100%);
+    box-shadow: 0px 2.88889px 2.88889px rgba(90, 87, 87, 0.7);
+    border-radius: 7.22222px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.stars {
+    margin: 15px;
+}
+
+.img1 {
+    position: absolute;
+    width: 433.5px;
+    height: 101.05px;
+    right: 0px;
+    top: 0px;
+}
+
+.courses-info {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-bottom: 57px;
+
+}
+
+.modules {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.module {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 9px 17px;
+    width: 460px;
+    height: 43px;
+    background: #F1F2F6;
+    border: 1px solid #27187E;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+
+.fm {
+    font-family: 'BluecurveRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 113.5%;
+    color: darkblue;
+}
+
+.line2 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 475px;
+    border: 1px solid #27187E;
+}
+
+.progress {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 46px;
+}
+
+.monprogress {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.line3 {
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 430px;
+    margin-top: 193px;
+    border: 1px solid #27187E;
+    transform: rotate(90deg);
+}
+
+.picprog {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.prog {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pprog {
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.pprog2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.homework {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.hw {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 6.6943px 13px 21px;
+    width: 300px;
+    height: 73px;
+    border: 0.836788px solid #27187E;
+    border-radius: 8.36788px;
+    margin-top: 19px;
+}
+
+.hwt {
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    margin-left: 20px;
+    margin-top: 10px;
+}
