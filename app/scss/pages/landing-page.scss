@@ -105,6 +105,11 @@
   background: radial-gradient(61.46% 61.46% at 45.56% 43.79%, #FFDEBA 0%, #AEB8FE 100%);
   border-radius: 10px;
   transition: 0.35s;
+  position: relative;
+  .scretch-img{
+    position: absolute;
+    top: 40px;
+  }
   &:hover{
     transform: scale(0.95);
   }
@@ -216,6 +221,7 @@
      align-items: center;
    }
   .team-person{
+    margin-left: -5px;
     img{
       width: 100%;
       transition: 0.35s;

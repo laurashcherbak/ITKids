@@ -65,6 +65,26 @@
   flex-direction: column;
   padding-top: 230px;
   padding-left: 200px;
+  &.python{
+    padding-top: 250px;
+    .preferences{
+      margin-top: -30px;
+      margin-bottom: 500px;
+      .preferences-img{
+        top: 230px;
+      }
+    }
+    .right-info{
+      padding-top: 60px;
+      p{
+        margin-bottom: 50px;
+      }
+    }
+    .skills-teacher{
+      padding-top: 60px;
+      margin-top: -100px;
+    }
+  }
   &.js{
     padding-top: 200px;
     .preferences{
