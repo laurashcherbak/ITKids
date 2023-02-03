@@ -267,7 +267,15 @@
     max-width: 1150px;
     width: 100%;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    .article-img{
+      width: 500px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
     .article-info {
       width: 50%;
       margin-left: 50px;
