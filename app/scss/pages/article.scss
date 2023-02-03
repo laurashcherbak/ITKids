@@ -71,7 +71,17 @@
         p{
           margin-bottom: 40px;
         }
+        .text-item{
+           margin-bottom: 20px;
+           display: flex;
+           align-items: center;
+           svg{
+             margin-right: 10px;
+           }
+         }
+
       }
+
       .text-img{
         margin-left: 45px;
         width: 50%;
@@ -92,6 +102,33 @@
     h3{
       text-align: left;
       margin-bottom: 65px;
+    }
+    .items-body{
+      display: flex;
+      justify-content: space-between;
+      .elements-list{
+        display: flex;
+        .element-col{
+          margin-right: 30px;
+          &:last-child{
+            margin-left: 30px;
+          }
+          h5{
+            margin-bottom: 25px;
+          }
+        }
+      }
+      .elements-img{
+        margin-top: -100px;
+        max-width: 340px;
+        max-height: 340px;
+        position: relative;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
     }
     .items-list{
       margin-left: 60px;
@@ -154,11 +191,35 @@
   .text-block{
     display: flex;
     max-width: 1150px;
-    margin: 0 auto 250px;
+    margin: 0 auto 120px;
     justify-content: space-between;
+    &.last{
+      margin: 0 auto 250px;
+    }
     .text-item{
+      display: flex;
+      flex-direction: column;
       width: 50%;
       margin-right: 100px;
+      border-radius: 10px;
+      img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        border-radius: 10px;
+      }
+      &.big{
+        margin-right: 40px;
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      p{
+        margin-bottom: 30px;
+      }
       &:last-child{
         margin-right: 0;
       }
