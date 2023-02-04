@@ -46,18 +46,38 @@
 
 .lection {
     margin-top: 200px;
-    margin-left: 50px;
+    padding-left: 50px;
+    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    overflow: hidden;
 }
 
+.image-block{
+    position: relative;
+}
+
+.image-block svg{
+    z-index: 1;
+}
+
+.dotted-line{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    z-index: -1;
+}
 
 .parg {
     margin-top: 64px;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 60px;
+}
+
+.non-strech{
+    align-items: flex-start !important; 
 }
 
 .text {
@@ -96,6 +116,7 @@
     font-size: 20px;
     line-height: 113.5%;
     margin-bottom: 5px;
+    position: relative;
 }
 
 .b2text {
@@ -281,16 +302,14 @@
 }
 
 .block {
-
     width: 500px;
-    height: 594px;
     border: 1px solid #27187E;
     border-radius: 10px;
     margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 22px 50px 20px 22px;
 }
 
 .videoled {
@@ -305,4 +324,75 @@
 
     top: 5400px;
     border: 3px dashed #27187E;
+}
+
+.tip-list{
+    position: relative;
+}
+
+.square-list{
+    width: 55px;
+    position: absolute;
+    right: 100%;
+    bottom: 100%;
+    transform: translate(50%,50%);
+}
+
+.markers{
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    left: 95%;
+    top: 15px;
+}
+
+.tips-list-item{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'BluecurveRegular';
+    font-style: normal;
+    line-height: 113.5%;
+    color: darkblue;
+    display: flex;
+    align-items:first baseline;
+    gap: 7px;
+}
+
+.marker{
+    min-width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #27187E;
+    transform: translateY(-50%);
+}
+
+.helpfull-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.helpfull-icons-text{
+    max-width: 369px;
+    text-align: center;
+}
+
+.windows-tips{
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    margin-bottom: 147px;
+}
+
+.windows-tips-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.windows-tips-item .text{
+    margin-left: 0 !important;
 }
